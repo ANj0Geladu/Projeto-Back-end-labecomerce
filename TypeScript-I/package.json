@@ -1,0 +1,24 @@
+{
+  "name": "typescript-i-exercicios",
+  "version": "1.0.0",
+  "description": "ATENÇÃO! Não forke nem clone esse repositório. Ele serve apenas como enunciado!<br><br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build/dataBase.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labenuexercicios/typescript-I-exercicios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/labenuexercicios/typescript-I-exercicios/issues"
+  },
+  "homepage": "https://github.com/labenuexercicios/typescript-I-exercicios#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.6"
+  }
+}
