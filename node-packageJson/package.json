@@ -1,0 +1,23 @@
+{
+  "name": "packagejson",
+  "version": "1.0.0",
+  "description": "exercicio",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "index": "node ./index.js iniciou",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "par-ou-impar": "node ./par-ou-impar.js 16 "
+  },
+  "keywords": [],
+  "author": "victor",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labenuexercicios/node-package-json-exercicios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/labenuexercicios/node-package-json-exercicios/issues"
+  },
+  "homepage": "https://github.com/labenuexercicios/node-package-json-exercicios#readme"
+}
