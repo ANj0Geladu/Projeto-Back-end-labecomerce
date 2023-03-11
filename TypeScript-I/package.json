@@ -4,7 +4,7 @@
   "description": "ATENÇÃO! Não forke nem clone esse repositório. Ele serve apenas como enunciado!<br><br>",
   "main": "index.js",
   "scripts": {
-    "start-typeI": "tsc && node build/database.js"
+    "type": "tsc && node build/type.js"
   },
   "repository": {
     "type": "git",

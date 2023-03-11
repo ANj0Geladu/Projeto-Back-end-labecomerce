@@ -1,3 +1,4 @@
+import { table } from "console"
 import {users, products, purchases} from "./database"
  
 export type TUser = {
@@ -20,6 +21,10 @@ export type TUser = {
     totalPrice: number
   }
 
-  console.log('Users:', users);
-  console.log('Products:', products);
-  console.log('Purchases:', purchases);
+function main(){
+  console.table(users, ['id', 'email', 'password'])
+  console.table(products, ['id', 'name', 'price', 'category'])
+  console.table(purchases, ['userId', 'productId', 'quantity', 'totalPrice'])
+}
+
+main()

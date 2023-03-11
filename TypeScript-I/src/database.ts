@@ -1,4 +1,4 @@
-import { TUser, TProduct, TPurchase } from "./index"
+import { TUser, TProduct, TPurchase } from "./types"
 
 
 // Usuários
