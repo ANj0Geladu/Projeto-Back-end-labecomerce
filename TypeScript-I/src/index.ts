@@ -1,7 +1,5 @@
-
-import { users, products, purchases } from "../build/dataBase.ts";
-
-
+import {users, products, purchases} from "./database"
+ 
 export type TUser = {
     id: string,
     email: string,

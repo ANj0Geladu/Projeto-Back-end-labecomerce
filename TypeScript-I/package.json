@@ -4,8 +4,7 @@
   "description": "ATENÇÃO! Não forke nem clone esse repositório. Ele serve apenas como enunciado!<br><br>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsc && node build/dataBase.ts"
+    "start-typeI": "tsc && node build/database.js"
   },
   "repository": {
     "type": "git",

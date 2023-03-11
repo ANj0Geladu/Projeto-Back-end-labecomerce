@@ -1,4 +1,5 @@
-import { TUser, TProduct, TPurchase } from "../src/index"
+import { TUser, TProduct, TPurchase } from "./index"
+
 
 // Usuários
 const users: TUser[] = [
@@ -13,7 +14,6 @@ const users: TUser[] = [
     password: 'maria123',
   },
 ];
-
 // Produtos
 const products: TProduct[] = [
   {
@@ -29,7 +29,6 @@ const products: TProduct[] = [
     category: 'Roupas',
   },
 ];
-
 // Compras
 const purchases: TPurchase[] = [
   {
